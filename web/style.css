@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family:"Roboto",sans-serif;
+}
+
+.nav-container{
+    background: #FFF7ED;
+    height: 100px;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+     
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+nav ul{
+    display:flex;
+}
+
+
+
+nav .logo {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 60px;
+}
+
+.nav-items li{
+  list-style: none;
+  margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items li a{
+    color: #454545;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav_item li a:hover{
+    transform: translateY(-8px);
+}
+
+
+
+.cata{
+    display: none;
+}
+
+.header-contain {
+    background: #FFCE95 url("images/Group\ 2.png");
+    background-repeat: repeat;
+    height: calc(100vh - 4px);
+    display: flex;
+    align-items: center;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: px;
+    display: flex;
+    font-size: 90px;
+    color: #454545;
+}
+
+h2{
+    font-family: 'Pragati Narrow';
+    margin-left: 30px;
+    font-style: normal;
+    color:  #FF3B6A;
+}
+
+
+
+
+
+h3{
+    font-size: 38px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.ima{
+    margin-left: 37px;
+}
+
+.botim{
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 300ms;
+}
+
+.botim:hover{
+    transform: translateY(-8px);
+}
+
+.icon{
+    transition: 300ms;
+}
+
+.icon:hover{
+    transform: translateY(-8px);
+}
+.nav:hover{
+    transform: translateY(-8px);
+}
+
+.art1{
+    height: 500px;
+    border-radius: 100px;
+}
+
+.header-contain1 {
+    background: #FFCE95 url("images/Group\ 2.png");
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
